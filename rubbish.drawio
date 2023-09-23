@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T15:14:25.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="wGQLyQ_Js1zTEatwccWF" version="21.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-23T15:14:52.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="o3AVfsIVHMy9x5AhAkJ9" version="21.8.1" type="github">
   <diagram name="Page-1" id="BWco238264VMgyxwHM1U">
     <mxGraphModel dx="1060" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,7 +48,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="360" y="650" />
-              <mxPoint x="360" y="828" />
+              <mxPoint x="360" y="848" />
+              <mxPoint x="510" y="848" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -175,12 +176,12 @@
           <mxGeometry x="510" y="580" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-61" value="主控制器/上位机：jetson xavier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="810" width="260" height="35" as="geometry" />
+          <mxGeometry x="510" y="830" width="260" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-68" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.153;entryY=-0.073;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.269;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Q-Ww03kxYp7yDKCnBUsY-52">
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-68" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.269;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Q-Ww03kxYp7yDKCnBUsY-52">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="770" as="sourcePoint" />
-            <mxPoint x="580.0000000000002" y="811.5325000000003" as="targetPoint" />
+            <mxPoint x="580" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-70" value="高电平" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q-Ww03kxYp7yDKCnBUsY-68">
@@ -188,10 +189,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-69" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.731;entryY=-0.061;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-69" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="760" as="sourcePoint" />
-            <mxPoint x="689.6100000000001" y="810.0025000000002" as="targetPoint" />
+            <mxPoint x="690" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-71" value="低电平" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q-Ww03kxYp7yDKCnBUsY-69">
