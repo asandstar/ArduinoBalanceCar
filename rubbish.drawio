@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T13:39:34.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="Y9blCAXvKn7_WCQ2zBeS" version="21.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-23T15:03:07.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="uXgD5vy6uLcvTD621G9e" version="21.8.1" type="github">
   <diagram name="Page-1" id="BWco238264VMgyxwHM1U">
     <mxGraphModel dx="1166" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -122,8 +122,14 @@
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-37" value="用户显示：7寸串口显示屏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="425" y="575" width="210" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q-Ww03kxYp7yDKCnBUsY-46" target="Q-Ww03kxYp7yDKCnBUsY-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q-Ww03kxYp7yDKCnBUsY-46" target="Q-Ww03kxYp7yDKCnBUsY-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-46" value="光电对管" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="747.5" width="115" height="45" as="geometry" />
+          <mxGeometry x="400" y="747.5" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q-Ww03kxYp7yDKCnBUsY-4" target="Q-Ww03kxYp7yDKCnBUsY-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -136,6 +142,12 @@
             <mxPoint x="390" y="580" as="sourcePoint" />
             <mxPoint x="420" y="540" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-51" value="发射管发出光照" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="710" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-52" value="接收管的光敏元件接受光照" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="780" width="180" height="47.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
