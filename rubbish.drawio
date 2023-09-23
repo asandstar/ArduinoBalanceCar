@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T15:36:50.449Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="G8ruGVK-MIM13wcOpA_x" version="21.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-23T15:38:49.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="d4Yjbsnl9NabyhvC_Ai0" version="21.8.1" type="github">
   <diagram name="Page-1" id="BWco238264VMgyxwHM1U">
     <mxGraphModel dx="1014" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -163,7 +163,7 @@
             <Array as="points">
               <mxPoint x="645" y="600" />
               <mxPoint x="800" y="600" />
-              <mxPoint x="800" y="940" />
+              <mxPoint x="800" y="860" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -257,12 +257,20 @@
           <mxGeometry x="360" y="920.25" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-74" value="推杆" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="830" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-75" value="驱动电机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="920.25" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-76" value="与推杆垂直固连的压缩平板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q-Ww03kxYp7yDKCnBUsY-75" target="Q-Ww03kxYp7yDKCnBUsY-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-108" value="驱动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q-Ww03kxYp7yDKCnBUsY-106">
+          <mxGeometry x="-0.1891" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-75" value="驱动电机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="840" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-76" value="压缩平板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="1000.25" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-51" value="接收管的光敏元件接受光照" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -280,10 +288,15 @@
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-86" value="主控制器同上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1000.25" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-101" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q-Ww03kxYp7yDKCnBUsY-75" target="Q-Ww03kxYp7yDKCnBUsY-74">
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-103" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q-Ww03kxYp7yDKCnBUsY-74" target="Q-Ww03kxYp7yDKCnBUsY-76">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="740" as="sourcePoint" />
-            <mxPoint x="600" y="690" as="targetPoint" />
+            <mxPoint x="550" y="820" as="sourcePoint" />
+            <mxPoint x="610" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-Ww03kxYp7yDKCnBUsY-107" value="垂直固连" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q-Ww03kxYp7yDKCnBUsY-103">
+          <mxGeometry x="-0.0661" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
