@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-24T01:41:59.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="MwD68iRjpQ5fdRHChtxT" version="21.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-24T01:43:51.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="N-mbfV2hT0T0K0KyPdoS" version="21.8.1" type="github">
   <diagram name="Page-1" id="BWco238264VMgyxwHM1U">
     <mxGraphModel dx="1166" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -127,8 +127,8 @@
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Q-Ww03kxYp7yDKCnBUsY-23" target="Q-Ww03kxYp7yDKCnBUsY-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="790" y="124.25" />
-              <mxPoint x="790" y="545.25" />
+              <mxPoint x="850" y="124" />
+              <mxPoint x="850" y="545" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -162,14 +162,14 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="645" y="600" />
-              <mxPoint x="800" y="600" />
-              <mxPoint x="800" y="860" />
+              <mxPoint x="850" y="600" />
+              <mxPoint x="850" y="860" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-99" value="控制运行速度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Q-Ww03kxYp7yDKCnBUsY-97" vertex="1" connectable="0">
           <mxGeometry x="-0.5757" y="1" relative="1" as="geometry">
-            <mxPoint x="32" y="-9" as="offset" />
+            <mxPoint x="60" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-Ww03kxYp7yDKCnBUsY-35" value="主控制器/上位机：jetson xavier" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -298,6 +298,9 @@
           <mxGeometry x="-0.0661" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MZTwqguxbMII-WTy4Ulw-1" value="传递图像信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="520" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
